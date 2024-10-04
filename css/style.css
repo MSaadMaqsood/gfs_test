@@ -2507,6 +2507,72 @@ hr {
 .product-description .tab-item .product-intro-section {
   margin-bottom: 4rem;
 }
+.product-intro-section #inquiryForm label {
+  font-size: 1.4rem;
+}
+.product-intro-section #inquiryForm input[type="text"],
+.product-intro-section #inquiryForm input[type="tel"],
+.product-intro-section #inquiryForm input[type="email"],
+.product-intro-section #inquiryForm input[type="email"],
+.product-intro-section #inquiryForm input[type="number"],
+.product-intro-section #inquiryForm select {
+  /* height: 50px; Adjust height */
+  font-size: 1.5rem;
+  height: 35px;
+}
+.product-intro-section #inquiryForm textarea {
+  font-size: 1.5rem;
+}
+.product-intro-section #inquiryForm .radio-row {
+  display: flex;
+  gap: 20px; /* Adds space between radio buttons */
+  align-items: center;
+}
+.product-intro-section #inquiryForm .btncon{
+  display: flex;
+  justify-content: center;
+}
+.product-intro-section #inquiryForm .btncon button{
+
+  width: 300px;
+  height: 45px;
+  font-size: 1.7rem;
+}
+.product-intro-section table{
+  max-width: 800px;
+}
+.product-intro-section table th{
+  font-size: 1.5rem;
+
+}
+.product-intro-section table td{
+  font-size: 1.5rem;
+
+}
+@media (max-width: 767px) {
+  .product-intro-section #inquiryForm .radio-row {
+    flex-direction: column;
+    gap: 5px;
+    align-items: flex-start;
+  }
+  .product-intro-section #inquiryForm .btncon button{
+
+    width: 100%;
+    height: 45px;
+    font-size: 1.5rem;
+  }
+  .product-intro-section table{
+    max-width: 100%;
+  }
+  .product-intro-section table th{
+    font-size: 1.4rem;
+  
+  }
+  .product-intro-section table td{
+    font-size: 1.3rem;
+  
+  }
+}
 .product-description .tab-item .product-intro-section .product-details {
   line-height: 3rem;
   margin-top: 1rem;
@@ -2565,7 +2631,8 @@ hr {
 
 .intro-heading {
   font-weight: 500;
-  font-size: 1.8rem;
+  font-size: 2rem;
+  margin-bottom: 15px;
 }
 
 .product-weekly {
