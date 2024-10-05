@@ -2123,7 +2123,7 @@ button {
 .footer-section .logo {
   width: 140px;
 
-  /* margin-bottom: 6rem; */
+  margin-bottom: 1rem;
 }
 .footer-section .footer-heading {
   font-size: 2rem;
@@ -4100,6 +4100,10 @@ table .ticket-row:hover {
   font-family: "Inter", sans-serif;
 }
 @media (max-width: 767px) {
+  .blog {
+    /* background: #fffafe; */
+    padding: 3rem 0;
+  }
   .blog-bradcrum {
     text-align: center;
     margin-bottom: 3rem;
@@ -4110,8 +4114,15 @@ table .ticket-row:hover {
 }
 
 .about {
-  padding: 8rem 0 5rem 0;
+  padding: 2rem 0 1rem 0;
   background: #ffffff;
+}
+.about-service-section-title{
+font-size: 3rem;
+}
+.about-service-section-subtitle{
+font-size: 1.5rem;
+
 }
 @media (max-width: 1023px) {
   .about {
