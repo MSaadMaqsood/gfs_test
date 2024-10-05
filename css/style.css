@@ -195,7 +195,7 @@ button {
 }
 
 .product {
-  padding: 6rem 0;
+  padding: 3rem 0;
 }
 @media (max-width: 1023px) {
   .product {
@@ -4086,7 +4086,7 @@ table .ticket-row:hover {
 
 .blog {
   background: #fffafe;
-  padding: 6rem 0;
+  padding: 3rem 0;
 }
 .blog .heading {
   font-size: 3rem;
