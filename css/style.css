@@ -2015,6 +2015,20 @@ button {
     width: 200px;
     margin: auto;
   }
+  .product-sidebar-section .product-wrapper {
+    max-width: 250px;
+    margin: auto;
+    padding: 0 0 4rem 0;
+  }
+  .product-sidebar-section .product-wrapper .product-img {
+    display: flex;
+    justify-content: center;
+  }
+  .product-sidebar-section .product-wrapper .product-img img {
+    height: 200px;
+    width: 200px;
+    margin: auto;
+  }
 }
 
 .weekly-sale .style-section {
